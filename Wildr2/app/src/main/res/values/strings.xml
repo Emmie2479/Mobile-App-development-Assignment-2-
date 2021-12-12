@@ -3,4 +3,5 @@
     <string name="hint_wildrTitle">Animal Name</string>
     <string name="button_addWildr">Add An Animal</string>
     <string name="hint_animalDescription">Description </string>
+    <string name="menu_addAnimal">Add an animal</string>
 </resources>

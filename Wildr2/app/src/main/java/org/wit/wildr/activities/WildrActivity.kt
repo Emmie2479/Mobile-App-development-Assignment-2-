@@ -24,16 +24,17 @@ class WildrActivity : AppCompatActivity() {
         binding.btnAdd.setOnClickListener() {
             animal.title = binding.wildrTitle.text.toString()
             animal.description = binding.description.text.toString()
-            if (animal.title.isNotEmpty()&&animal.description.isNotEmpty()) {
-                app!!.animals.add(animal.copy())
-                //animals.add(animal.copy())
+            if (animal.title.isNotEmpty()) {
+                app.animals.add(animal.copy())
                 i("add Button Pressed: ${animal}")
-                for (i in app!!.animals.indices)
-                {  i("Wildr[$i]:${app.animals[i]}") }
+                for (i in app.animals.indices) {
+                    i("Animal[$i]:${this.app.animals[i]}")
+                }
+                setResult(RESULT_OK)
+                finish()
             }
             else {
-                Snackbar
-                    .make(it, "Please Enter missing Data", Snackbar.LENGTH_LONG)
+                Snackbar.make(it,"Please Enter a title", Snackbar.LENGTH_LONG)
                     .show()
             }
         }

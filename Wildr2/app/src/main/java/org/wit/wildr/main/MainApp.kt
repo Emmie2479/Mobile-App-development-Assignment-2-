@@ -11,8 +11,5 @@ class MainApp : Application() {
         super.onCreate()
         Timber.plant(Timber.DebugTree())
         i("Wildr started")
-        animals.add(WildrModel("One", "About one..."))
-        animals.add(WildrModel("Two", "About two..."))
-        animals.add(WildrModel("Three", "About three..."))
     }
 }
