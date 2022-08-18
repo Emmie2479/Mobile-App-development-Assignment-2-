@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Wildr</string>
+    <string name="button_addAnimal">Add Animal</string>
+    <string name="hint_animalType">Type</string>
+    <string name="hint_animalName">Name</string>
+    <string name="hint_animalSex">Sex </string>
+    <string name="menu_addAnimal">Add</string>
+    <string name="menu_cancelAnimal">Cancel</string>
+    <string name="menu_deleteAnimal">Delete</string>
+    <string name="enter_animal_name"> Please enter an animal name </string>
+    <string name="save_animal"> Save Animal </string>
+    <string name="button_addImage"> Add Image </string>
+    <string name="select_animal_image">Select animal image</string>
+    <string name="change_animal_image">Change animal image</string>
+</resources>
